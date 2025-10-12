@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "757635038012",
+    "firebase_url": "https://takecare-dd441-default-rtdb.firebaseio.com",
+    "project_id": "takecare-dd441",
+    "storage_bucket": "takecare-dd441.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757635038012:android:45c5d63e1dae468aa8bc39",
+        "android_client_info": {
+          "package_name": "com.geekymusketeers.taketoocare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757635038012-uj5vfn7f3pv781194qiv82uatb9fgsfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geekymusketeers.taketoocare",
+            "certificate_hash": "293e11f846741966659503385673dd40239ce344"
+          }
+        },
+        {
+          "client_id": "757635038012-72dl5a53h4apdja8c8863i9e1qksmos6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_4Z3jgM05Ms0ccjA__9Qvq73AWdqn2wM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757635038012-72dl5a53h4apdja8c8863i9e1qksmos6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

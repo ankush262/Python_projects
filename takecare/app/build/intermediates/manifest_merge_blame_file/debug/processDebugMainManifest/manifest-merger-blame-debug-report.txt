@@ -1,0 +1,397 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.takecare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\android\takecare\app\src\main\AndroidManifest.xml:6:5-67
+12-->D:\android\takecare\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->D:\android\takecare\app\src\main\AndroidManifest.xml:7:5-79
+13-->D:\android\takecare\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\android\takecare\app\src\main\AndroidManifest.xml:8:5-79
+14-->D:\android\takecare\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\android\takecare\app\src\main\AndroidManifest.xml:9:5-80
+15-->D:\android\takecare\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\android\takecare\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\android\takecare\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->D:\android\takecare\app\src\main\AndroidManifest.xml:11:5-79
+17-->D:\android\takecare\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\android\takecare\app\src\main\AndroidManifest.xml:12:5-81
+18-->D:\android\takecare\app\src\main\AndroidManifest.xml:12:22-78
+19
+20    <permission
+20-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.takecare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.takecare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->D:\android\takecare\app\src\main\AndroidManifest.xml:14:5-88:19
+27        android:allowBackup="true"
+27-->D:\android\takecare\app\src\main\AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.13.0] C:\Users\ankus\.gradle\caches\transforms-4\081b3f78230b78a6f0f13f36ef38738b\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->D:\android\takecare\app\src\main\AndroidManifest.xml:16:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="true"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->D:\android\takecare\app\src\main\AndroidManifest.xml:17:9-54
+33        android:icon="@drawable/app_icon"
+33-->D:\android\takecare\app\src\main\AndroidManifest.xml:18:9-42
+34        android:label="@string/app_name"
+34-->D:\android\takecare\app\src\main\AndroidManifest.xml:19:9-41
+35        android:roundIcon="@drawable/app_icon"
+35-->D:\android\takecare\app\src\main\AndroidManifest.xml:20:9-47
+36        android:supportsRtl="true"
+36-->D:\android\takecare\app\src\main\AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.Medify" >
+38-->D:\android\takecare\app\src\main\AndroidManifest.xml:22:9-44
+39
+40        <!-- Existing receivers and meta-data -->
+41        <receiver
+41-->D:\android\takecare\app\src\main\AndroidManifest.xml:26:9-36:20
+42            android:name="com.example.takecare.FistWidget"
+42-->D:\android\takecare\app\src\main\AndroidManifest.xml:27:13-39
+43            android:exported="false" >
+43-->D:\android\takecare\app\src\main\AndroidManifest.xml:28:13-37
+44            <intent-filter>
+44-->D:\android\takecare\app\src\main\AndroidManifest.xml:29:13-31:29
+45                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+45-->D:\android\takecare\app\src\main\AndroidManifest.xml:30:17-84
+45-->D:\android\takecare\app\src\main\AndroidManifest.xml:30:25-81
+46            </intent-filter>
+47
+48            <meta-data
+48-->D:\android\takecare\app\src\main\AndroidManifest.xml:33:13-35:60
+49                android:name="android.appwidget.provider"
+49-->D:\android\takecare\app\src\main\AndroidManifest.xml:34:17-58
+50                android:resource="@xml/fist_widget_info" />
+50-->D:\android\takecare\app\src\main\AndroidManifest.xml:35:17-57
+51        </receiver>
+52
+53        <meta-data
+53-->D:\android\takecare\app\src\main\AndroidManifest.xml:38:9-40:71
+54            android:name="com.google.android.geo.API_KEY"
+54-->D:\android\takecare\app\src\main\AndroidManifest.xml:39:13-58
+55            android:value="AIzaSyBnQKYjMgXXtcNXRphQENYesma20fFE0C0" />
+55-->D:\android\takecare\app\src\main\AndroidManifest.xml:40:13-68
+56
+57        <!-- All existing activities remain -->
+58        <activity
+58-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:9-171
+59            android:name="com.example.takecare.dcotorActivity"
+59-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:19-49
+60            android:exported="false"
+60-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:50-74
+61            android:label="@string/title_activity_dcotor"
+61-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:75-120
+62            android:theme="@style/Theme.Medify.NoActionBar" />
+62-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:121-168
+63        <activity
+63-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:9-183
+64            android:name="com.example.takecare.activitylanguage"
+64-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:19-51
+65            android:exported="false"
+65-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:52-76
+66            android:label="@string/title_activity_activitylanguage"
+66-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:77-132
+67            android:theme="@style/Theme.Medify.NoActionBar" />
+67-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:133-180
+68        <activity
+68-->D:\android\takecare\app\src\main\AndroidManifest.xml:45:9-119
+69            android:name="com.example.takecare.MapsActivity"
+69-->D:\android\takecare\app\src\main\AndroidManifest.xml:45:19-47
+70            android:exported="false"
+70-->D:\android\takecare\app\src\main\AndroidManifest.xml:45:48-72
+71            android:label="@string/title_activity_maps" />
+71-->D:\android\takecare\app\src\main\AndroidManifest.xml:45:73-116
+72        <activity
+72-->D:\android\takecare\app\src\main\AndroidManifest.xml:46:9-173
+73            android:name="com.example.takecare.CheckerActivity"
+73-->D:\android\takecare\app\src\main\AndroidManifest.xml:46:19-50
+74            android:exported="false"
+74-->D:\android\takecare\app\src\main\AndroidManifest.xml:46:51-75
+75            android:label="@string/title_activity_checker"
+75-->D:\android\takecare\app\src\main\AndroidManifest.xml:46:76-122
+76            android:theme="@style/Theme.Medify.NoActionBar" />
+76-->D:\android\takecare\app\src\main\AndroidManifest.xml:46:123-170
+77        <activity
+77-->D:\android\takecare\app\src\main\AndroidManifest.xml:47:9-174
+78            android:name="com.example.takecare.activity_disease"
+78-->D:\android\takecare\app\src\main\AndroidManifest.xml:47:19-51
+79            android:exported="false"
+79-->D:\android\takecare\app\src\main\AndroidManifest.xml:47:52-76
+80            android:label="@string/title_activity_checker"
+80-->D:\android\takecare\app\src\main\AndroidManifest.xml:47:77-123
+81            android:theme="@style/Theme.Medify.NoActionBar" />
+81-->D:\android\takecare\app\src\main\AndroidManifest.xml:47:124-171
+82        <activity
+82-->D:\android\takecare\app\src\main\AndroidManifest.xml:48:9-90
+83            android:name="com.example.takecare.auth.ForgotPasswordActivity"
+83-->D:\android\takecare\app\src\main\AndroidManifest.xml:48:19-62
+84            android:exported="false" />
+84-->D:\android\takecare\app\src\main\AndroidManifest.xml:48:63-87
+85        <activity
+85-->D:\android\takecare\app\src\main\AndroidManifest.xml:49:9-74
+86            android:name="com.example.takecare.LocalHelper"
+86-->D:\android\takecare\app\src\main\AndroidManifest.xml:49:19-46
+87            android:exported="false" />
+87-->D:\android\takecare\app\src\main\AndroidManifest.xml:49:47-71
+88        <activity
+88-->D:\android\takecare\app\src\main\AndroidManifest.xml:50:9-78
+89            android:name="com.example.takecare.remind.reminder"
+89-->D:\android\takecare\app\src\main\AndroidManifest.xml:50:19-50
+90            android:exported="false" />
+90-->D:\android\takecare\app\src\main\AndroidManifest.xml:50:51-75
+91        <activity
+91-->D:\android\takecare\app\src\main\AndroidManifest.xml:51:9-90
+92            android:name="com.example.takecare.profile.EditProfileActivity"
+92-->D:\android\takecare\app\src\main\AndroidManifest.xml:51:19-62
+93            android:exported="false" />
+93-->D:\android\takecare\app\src\main\AndroidManifest.xml:51:63-87
+94        <activity
+94-->D:\android\takecare\app\src\main\AndroidManifest.xml:52:9-86
+95            android:name="com.example.takecare.profile.ProfileActivity"
+95-->D:\android\takecare\app\src\main\AndroidManifest.xml:52:19-58
+96            android:exported="false" />
+96-->D:\android\takecare\app\src\main\AndroidManifest.xml:52:59-83
+97        <activity
+97-->D:\android\takecare\app\src\main\AndroidManifest.xml:53:9-99
+98            android:name="com.example.takecare.prescription.AddPrescriptionActivity"
+98-->D:\android\takecare\app\src\main\AndroidManifest.xml:53:19-71
+99            android:exported="false" />
+99-->D:\android\takecare\app\src\main\AndroidManifest.xml:53:72-96
+100        <activity
+100-->D:\android\takecare\app\src\main\AndroidManifest.xml:54:9-89
+101            android:name="com.example.takecare.mainFragments.DoctorPatient"
+101-->D:\android\takecare\app\src\main\AndroidManifest.xml:54:19-62
+102            android:exported="true" />
+102-->D:\android\takecare\app\src\main\AndroidManifest.xml:54:63-86
+103        <activity
+103-->D:\android\takecare\app\src\main\AndroidManifest.xml:55:9-93
+104            android:name="com.example.takecare.appointment.BookingDoneActivity"
+104-->D:\android\takecare\app\src\main\AndroidManifest.xml:55:19-66
+105            android:exported="true" />
+105-->D:\android\takecare\app\src\main\AndroidManifest.xml:55:67-90
+106        <activity
+106-->D:\android\takecare\app\src\main\AndroidManifest.xml:56:9-75
+107            android:name="com.example.takecare.insure.Insure"
+107-->D:\android\takecare\app\src\main\AndroidManifest.xml:56:19-48
+108            android:exported="true" />
+108-->D:\android\takecare\app\src\main\AndroidManifest.xml:56:49-72
+109        <activity
+109-->D:\android\takecare\app\src\main\AndroidManifest.xml:57:9-85
+110            android:name="com.example.takecare.Firstaid.firsrActivity"
+110-->D:\android\takecare\app\src\main\AndroidManifest.xml:57:19-57
+111            android:exported="false" />
+111-->D:\android\takecare\app\src\main\AndroidManifest.xml:57:58-82
+112        <activity
+112-->D:\android\takecare\app\src\main\AndroidManifest.xml:58:9-81
+113            android:name="com.example.takecare.Firstaid.SnakeBite"
+113-->D:\android\takecare\app\src\main\AndroidManifest.xml:58:19-53
+114            android:exported="false" />
+114-->D:\android\takecare\app\src\main\AndroidManifest.xml:58:54-78
+115        <activity
+115-->D:\android\takecare\app\src\main\AndroidManifest.xml:59:9-86
+116            android:name="com.example.takecare.Firstaid.ViralInfection"
+116-->D:\android\takecare\app\src\main\AndroidManifest.xml:59:19-58
+117            android:exported="false" />
+117-->D:\android\takecare\app\src\main\AndroidManifest.xml:59:59-83
+118        <activity
+118-->D:\android\takecare\app\src\main\AndroidManifest.xml:60:9-80
+119            android:name="com.example.takecare.Firstaid.Skinburn"
+119-->D:\android\takecare\app\src\main\AndroidManifest.xml:60:19-52
+120            android:exported="false" />
+120-->D:\android\takecare\app\src\main\AndroidManifest.xml:60:53-77
+121        <activity
+121-->D:\android\takecare\app\src\main\AndroidManifest.xml:61:9-86
+122            android:name="com.example.takecare.Firstaid.FoodPoisoning1"
+122-->D:\android\takecare\app\src\main\AndroidManifest.xml:61:19-58
+123            android:exported="false" />
+123-->D:\android\takecare\app\src\main\AndroidManifest.xml:61:59-83
+124        <activity
+124-->D:\android\takecare\app\src\main\AndroidManifest.xml:62:9-79
+125            android:name="com.example.takecare.Firstaid.DogBite"
+125-->D:\android\takecare\app\src\main\AndroidManifest.xml:62:19-51
+126            android:exported="false" />
+126-->D:\android\takecare\app\src\main\AndroidManifest.xml:62:52-76
+127        <activity
+127-->D:\android\takecare\app\src\main\AndroidManifest.xml:63:9-86
+128            android:name="com.example.takecare.mainFragments.UPImanager"
+128-->D:\android\takecare\app\src\main\AndroidManifest.xml:63:19-59
+129            android:exported="true" />
+129-->D:\android\takecare\app\src\main\AndroidManifest.xml:63:60-83
+130        <activity
+130-->D:\android\takecare\app\src\main\AndroidManifest.xml:64:9-84
+131            android:name="com.example.takecare.Reminder.HelpActivity"
+131-->D:\android\takecare\app\src\main\AndroidManifest.xml:64:19-56
+132            android:exported="false" />
+132-->D:\android\takecare\app\src\main\AndroidManifest.xml:64:57-81
+133        <activity
+133-->D:\android\takecare\app\src\main\AndroidManifest.xml:65:9-89
+134            android:name="com.example.takecare.Reminder.RemindersActivity"
+134-->D:\android\takecare\app\src\main\AndroidManifest.xml:65:19-61
+135            android:exported="false" />
+135-->D:\android\takecare\app\src\main\AndroidManifest.xml:65:62-86
+136        <activity
+136-->D:\android\takecare\app\src\main\AndroidManifest.xml:66:9-82
+137            android:name="com.example.takecare.language.changelang"
+137-->D:\android\takecare\app\src\main\AndroidManifest.xml:66:19-54
+138            android:exported="false" />
+138-->D:\android\takecare\app\src\main\AndroidManifest.xml:66:55-79
+139        <activity
+139-->D:\android\takecare\app\src\main\AndroidManifest.xml:67:9-83
+140            android:name="com.example.takecare.sosfeature.SOSdialer"
+140-->D:\android\takecare\app\src\main\AndroidManifest.xml:67:19-55
+141            android:exported="false" />
+141-->D:\android\takecare\app\src\main\AndroidManifest.xml:67:56-80
+142        <activity
+142-->D:\android\takecare\app\src\main\AndroidManifest.xml:68:9-92
+143            android:name="com.example.takecare.appointment.AppointmentBooking"
+143-->D:\android\takecare\app\src\main\AndroidManifest.xml:68:19-65
+144            android:exported="true" />
+144-->D:\android\takecare\app\src\main\AndroidManifest.xml:68:66-89
+145        <activity
+145-->D:\android\takecare\app\src\main\AndroidManifest.xml:69:9-79
+146            android:name="com.example.takecare.auth.SignUp_First"
+146-->D:\android\takecare\app\src\main\AndroidManifest.xml:69:19-52
+147            android:exported="true" />
+147-->D:\android\takecare\app\src\main\AndroidManifest.xml:69:53-76
+148        <activity
+148-->D:\android\takecare\app\src\main\AndroidManifest.xml:70:9-137
+149            android:name="com.example.takecare.auth.SignIn_Activity"
+149-->D:\android\takecare\app\src\main\AndroidManifest.xml:70:19-55
+150            android:exported="true"
+150-->D:\android\takecare\app\src\main\AndroidManifest.xml:70:56-79
+151            android:windowSoftInputMode="stateHidden|adjustResize" />
+151-->D:\android\takecare\app\src\main\AndroidManifest.xml:70:80-134
+152        <activity
+152-->D:\android\takecare\app\src\main\AndroidManifest.xml:71:9-137
+153            android:name="com.example.takecare.auth.SignUp_Activity"
+153-->D:\android\takecare\app\src\main\AndroidManifest.xml:71:19-55
+154            android:exported="true"
+154-->D:\android\takecare\app\src\main\AndroidManifest.xml:71:56-79
+155            android:windowSoftInputMode="stateHidden|adjustResize" />
+155-->D:\android\takecare\app\src\main\AndroidManifest.xml:71:80-134
+156        <activity
+156-->D:\android\takecare\app\src\main\AndroidManifest.xml:72:9-114
+157            android:name="com.example.takecare.HomeActivity"
+157-->D:\android\takecare\app\src\main\AndroidManifest.xml:72:19-47
+158            android:exported="true"
+158-->D:\android\takecare\app\src\main\AndroidManifest.xml:72:48-71
+159            android:windowSoftInputMode="adjustPan" />
+159-->D:\android\takecare\app\src\main\AndroidManifest.xml:72:72-111
+160
+161        <!-- MAIN LAUNCHER activity changed to MainActivity -->
+162        <activity
+162-->D:\android\takecare\app\src\main\AndroidManifest.xml:75:9-82:20
+163            android:name="com.example.takecare.MainActivity"
+163-->D:\android\takecare\app\src\main\AndroidManifest.xml:76:13-41
+164            android:exported="true" >
+164-->D:\android\takecare\app\src\main\AndroidManifest.xml:77:13-36
+165            <intent-filter>
+165-->D:\android\takecare\app\src\main\AndroidManifest.xml:78:13-81:29
+166                <action android:name="android.intent.action.MAIN" />
+166-->D:\android\takecare\app\src\main\AndroidManifest.xml:79:17-69
+166-->D:\android\takecare\app\src\main\AndroidManifest.xml:79:25-66
+167
+168                <category android:name="android.intent.category.LAUNCHER" />
+168-->D:\android\takecare\app\src\main\AndroidManifest.xml:80:17-77
+168-->D:\android\takecare\app\src\main\AndroidManifest.xml:80:27-74
+169            </intent-filter>
+170        </activity>
+171
+172        <meta-data
+172-->D:\android\takecare\app\src\main\AndroidManifest.xml:84:9-86:57
+173            android:name="preloaded_fonts"
+173-->D:\android\takecare\app\src\main\AndroidManifest.xml:85:13-43
+174            android:resource="@array/preloaded_fonts" />
+174-->D:\android\takecare\app\src\main\AndroidManifest.xml:86:13-54
+175
+176        <provider
+176-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+177            android:name="androidx.startup.InitializationProvider"
+177-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+178            android:authorities="com.example.takecare.androidx-startup"
+178-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+179            android:exported="false" >
+179-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+180            <meta-data
+180-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+181                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+181-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+182                android:value="androidx.startup" />
+182-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankus\.gradle\caches\transforms-4\a56c09fe6dd4ac80798a33740ac3e575\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+183            <meta-data
+183-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ankus\.gradle\caches\transforms-4\6f45e76882a5249c360fe911df6bbd98\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+184                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+184-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ankus\.gradle\caches\transforms-4\6f45e76882a5249c360fe911df6bbd98\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+185                android:value="androidx.startup" />
+185-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\ankus\.gradle\caches\transforms-4\6f45e76882a5249c360fe911df6bbd98\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+186            <meta-data
+186-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+187                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+187-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+188                android:value="androidx.startup" />
+188-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+189        </provider>
+190
+191        <receiver
+191-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+192            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+192-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+193            android:directBootAware="false"
+193-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+194            android:enabled="true"
+194-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+195            android:exported="true"
+195-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+196            android:permission="android.permission.DUMP" >
+196-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+197            <intent-filter>
+197-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+198                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+198-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+198-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+199            </intent-filter>
+200            <intent-filter>
+200-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+201                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+201-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+201-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+202            </intent-filter>
+203            <intent-filter>
+203-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+204                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+204-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+204-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+205            </intent-filter>
+206            <intent-filter>
+206-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+207                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+207-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\ankus\.gradle\caches\transforms-4\449b59ca398df86aff636c028e5aea35\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+208            </intent-filter>
+209        </receiver>
+210    </application>
+211
+212</manifest>

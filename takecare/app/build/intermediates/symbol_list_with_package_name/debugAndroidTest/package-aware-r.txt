@@ -1,0 +1,3 @@
+com.geekymusketeers.taketoocare.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

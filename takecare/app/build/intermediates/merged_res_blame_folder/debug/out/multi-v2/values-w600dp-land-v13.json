@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.geekymusketeers.taketoocare.app-mergeDebugResources-56:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\android\\learinng\\caches\\transforms-3\\606ab70d3a2df140a09c2887e4cd3ffa\\transformed\\material-1.8.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

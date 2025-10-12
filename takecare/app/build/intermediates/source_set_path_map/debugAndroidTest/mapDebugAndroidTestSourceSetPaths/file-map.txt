@@ -1,0 +1,6 @@
+com.example.takecare.test.app-jetified-core-1.5.0-0 C:\Users\ankus\.gradle\caches\transforms-4\7d5cbd9ac228378abd03df95fb42fee8\transformed\jetified-core-1.5.0\res
+com.example.takecare.test.app-jetified-annotation-experimental-1.4.0-1 C:\Users\ankus\.gradle\caches\transforms-4\9881e327dfe19ec09f1137014c8bd225\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.takecare.test.app-androidTest-2 D:\android\takecare\app\build\generated\res\resValues\androidTest\debug
+com.example.takecare.test.app-mergeDebugAndroidTestResources-3 D:\android\takecare\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.takecare.test.app-mergeDebugAndroidTestResources-4 D:\android\takecare\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.takecare.test.app-debugAndroidTest-5 D:\android\takecare\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

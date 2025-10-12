@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">757635038012-72dl5a53h4apdja8c8863i9e1qksmos6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://takecare-dd441-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">757635038012</string>
+    <string name="google_api_key" translatable="false">AIzaSyB_4Z3jgM05Ms0ccjA__9Qvq73AWdqn2wM</string>
+    <string name="google_app_id" translatable="false">1:757635038012:android:45c5d63e1dae468aa8bc39</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB_4Z3jgM05Ms0ccjA__9Qvq73AWdqn2wM</string>
+    <string name="google_storage_bucket" translatable="false">takecare-dd441.appspot.com</string>
+    <string name="project_id" translatable="false">takecare-dd441</string>
+</resources>

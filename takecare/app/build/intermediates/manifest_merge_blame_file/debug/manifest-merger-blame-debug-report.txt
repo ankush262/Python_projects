@@ -1,0 +1,669 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.geekymusketeers.taketoocare"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\android\takecare\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\android\takecare\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\android\takecare\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\android\takecare\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->D:\android\takecare\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\android\takecare\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\android\takecare\app\src\main\AndroidManifest.xml:8:5-79
+13-->D:\android\takecare\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\android\takecare\app\src\main\AndroidManifest.xml:9:5-80
+14-->D:\android\takecare\app\src\main\AndroidManifest.xml:9:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\android\takecare\app\src\main\AndroidManifest.xml:10:5-81
+15-->D:\android\takecare\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\android\takecare\app\src\main\AndroidManifest.xml:11:5-79
+16-->D:\android\takecare\app\src\main\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\android\takecare\app\src\main\AndroidManifest.xml:12:5-81
+17-->D:\android\takecare\app\src\main\AndroidManifest.xml:12:22-78
+18
+19    <uses-feature
+19-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+20        android:glEsVersion="0x00020000"
+20-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+21        android:required="true" />
+21-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+22
+23    <queries>
+23-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+24
+25        <!-- Needs to be explicitly declared on Android R+ -->
+26        <package android:name="com.google.android.apps.maps" />
+26-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+26-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+30-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+30-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+32
+33    <permission
+33-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+34        android:name="com.geekymusketeers.taketoocare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+34-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+35        android:protectionLevel="signature" />
+35-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+36
+37    <uses-permission android:name="com.geekymusketeers.taketoocare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+37-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+37-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+38    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+40        android:name="android.hardware.camera"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+43        android:name="android.hardware.camera.front"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+44        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+45    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+46    <uses-feature
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+47        android:name="android.hardware.camera.autofocus"
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+48        android:required="false" />
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+49    <uses-feature
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+50        android:name="android.hardware.camera.flash"
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+51        android:required="false" />
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+52    <uses-feature
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+53        android:name="android.hardware.screen.landscape"
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+54        android:required="false" />
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+55    <uses-feature
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+56        android:name="android.hardware.wifi"
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+57        android:required="false" />
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+58
+59    <application
+59-->D:\android\takecare\app\src\main\AndroidManifest.xml:14:5-166:19
+60        android:allowBackup="true"
+60-->D:\android\takecare\app\src\main\AndroidManifest.xml:15:9-35
+61        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+61-->[androidx.core:core:1.9.0] D:\android\learinng\caches\transforms-3\fac8f7bdad21d818efbc0c14199ad7a2\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+62        android:dataExtractionRules="@xml/data_extraction_rules"
+62-->D:\android\takecare\app\src\main\AndroidManifest.xml:16:9-65
+63        android:debuggable="true"
+64        android:fullBackupContent="@xml/backup_rules"
+64-->D:\android\takecare\app\src\main\AndroidManifest.xml:17:9-54
+65        android:icon="@drawable/app_icon"
+65-->D:\android\takecare\app\src\main\AndroidManifest.xml:18:9-42
+66        android:label="@string/app_name"
+66-->D:\android\takecare\app\src\main\AndroidManifest.xml:19:9-41
+67        android:roundIcon="@drawable/app_icon"
+67-->D:\android\takecare\app\src\main\AndroidManifest.xml:20:9-47
+68        android:supportsRtl="true"
+68-->D:\android\takecare\app\src\main\AndroidManifest.xml:21:9-35
+69        android:theme="@style/Theme.Medify" >
+69-->D:\android\takecare\app\src\main\AndroidManifest.xml:22:9-44
+70        <receiver
+70-->D:\android\takecare\app\src\main\AndroidManifest.xml:24:9-34:20
+71            android:name="com.geekymusketeers.taketoocare.FistWidget"
+71-->D:\android\takecare\app\src\main\AndroidManifest.xml:25:13-39
+72            android:exported="false" >
+72-->D:\android\takecare\app\src\main\AndroidManifest.xml:26:13-37
+73            <intent-filter>
+73-->D:\android\takecare\app\src\main\AndroidManifest.xml:27:13-29:29
+74                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+74-->D:\android\takecare\app\src\main\AndroidManifest.xml:28:17-84
+74-->D:\android\takecare\app\src\main\AndroidManifest.xml:28:25-81
+75            </intent-filter>
+76
+77            <meta-data
+77-->D:\android\takecare\app\src\main\AndroidManifest.xml:31:13-33:60
+78                android:name="android.appwidget.provider"
+78-->D:\android\takecare\app\src\main\AndroidManifest.xml:32:17-58
+79                android:resource="@xml/fist_widget_info" />
+79-->D:\android\takecare\app\src\main\AndroidManifest.xml:33:17-57
+80        </receiver>
+81
+82        <activity
+82-->D:\android\takecare\app\src\main\AndroidManifest.xml:36:9-40:63
+83            android:name="com.geekymusketeers.taketoocare.dcotorActivity"
+83-->D:\android\takecare\app\src\main\AndroidManifest.xml:37:13-43
+84            android:exported="false"
+84-->D:\android\takecare\app\src\main\AndroidManifest.xml:38:13-37
+85            android:label="@string/title_activity_dcotor"
+85-->D:\android\takecare\app\src\main\AndroidManifest.xml:39:13-58
+86            android:theme="@style/Theme.Medify.NoActionBar" />
+86-->D:\android\takecare\app\src\main\AndroidManifest.xml:40:13-60
+87        <activity
+87-->D:\android\takecare\app\src\main\AndroidManifest.xml:41:9-45:63
+88            android:name="com.geekymusketeers.taketoocare.activitylanguage"
+88-->D:\android\takecare\app\src\main\AndroidManifest.xml:42:13-45
+89            android:exported="false"
+89-->D:\android\takecare\app\src\main\AndroidManifest.xml:43:13-37
+90            android:label="@string/title_activity_activitylanguage"
+90-->D:\android\takecare\app\src\main\AndroidManifest.xml:44:13-68
+91            android:theme="@style/Theme.Medify.NoActionBar" />
+91-->D:\android\takecare\app\src\main\AndroidManifest.xml:45:13-60
+92        <!--
+93             TODO: Before you run your application, you need a Google Maps API key.
+94
+95             To get one, follow the directions here:
+96
+97                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+98
+99             Once you have your API key (it starts with "AIza"), define a new property in your
+100             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+101             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+102        -->
+103        <meta-data
+103-->D:\android\takecare\app\src\main\AndroidManifest.xml:57:9-59:71
+104            android:name="com.google.android.geo.API_KEY"
+104-->D:\android\takecare\app\src\main\AndroidManifest.xml:58:13-58
+105            android:value="AIzaSyBnQKYjMgXXtcNXRphQENYesma20fFE0C0" />
+105-->D:\android\takecare\app\src\main\AndroidManifest.xml:59:13-68
+106
+107        <activity
+107-->D:\android\takecare\app\src\main\AndroidManifest.xml:61:9-64:59
+108            android:name="com.geekymusketeers.taketoocare.MapsActivity"
+108-->D:\android\takecare\app\src\main\AndroidManifest.xml:62:13-41
+109            android:exported="false"
+109-->D:\android\takecare\app\src\main\AndroidManifest.xml:63:13-37
+110            android:label="@string/title_activity_maps" />
+110-->D:\android\takecare\app\src\main\AndroidManifest.xml:64:13-56
+111        <activity
+111-->D:\android\takecare\app\src\main\AndroidManifest.xml:65:9-69:63
+112            android:name="com.geekymusketeers.taketoocare.CheckerActivity"
+112-->D:\android\takecare\app\src\main\AndroidManifest.xml:66:13-44
+113            android:exported="false"
+113-->D:\android\takecare\app\src\main\AndroidManifest.xml:67:13-37
+114            android:label="@string/title_activity_checker"
+114-->D:\android\takecare\app\src\main\AndroidManifest.xml:68:13-59
+115            android:theme="@style/Theme.Medify.NoActionBar" />
+115-->D:\android\takecare\app\src\main\AndroidManifest.xml:69:13-60
+116        <activity
+116-->D:\android\takecare\app\src\main\AndroidManifest.xml:70:9-74:63
+117            android:name="com.geekymusketeers.taketoocare.activity_disease"
+117-->D:\android\takecare\app\src\main\AndroidManifest.xml:71:13-45
+118            android:exported="false"
+118-->D:\android\takecare\app\src\main\AndroidManifest.xml:72:13-37
+119            android:label="@string/title_activity_checker"
+119-->D:\android\takecare\app\src\main\AndroidManifest.xml:73:13-59
+120            android:theme="@style/Theme.Medify.NoActionBar" />
+120-->D:\android\takecare\app\src\main\AndroidManifest.xml:74:13-60
+121        <activity
+121-->D:\android\takecare\app\src\main\AndroidManifest.xml:75:9-77:40
+122            android:name="com.geekymusketeers.taketoocare.auth.ForgotPasswordActivity"
+122-->D:\android\takecare\app\src\main\AndroidManifest.xml:76:13-56
+123            android:exported="false" />
+123-->D:\android\takecare\app\src\main\AndroidManifest.xml:77:13-37
+124        <activity
+124-->D:\android\takecare\app\src\main\AndroidManifest.xml:78:9-80:40
+125            android:name="com.geekymusketeers.taketoocare.LocalHelper"
+125-->D:\android\takecare\app\src\main\AndroidManifest.xml:79:13-40
+126            android:exported="false" />
+126-->D:\android\takecare\app\src\main\AndroidManifest.xml:80:13-37
+127        <activity
+127-->D:\android\takecare\app\src\main\AndroidManifest.xml:81:9-83:40
+128            android:name="com.geekymusketeers.taketoocare.remind.reminder"
+128-->D:\android\takecare\app\src\main\AndroidManifest.xml:82:13-44
+129            android:exported="false" />
+129-->D:\android\takecare\app\src\main\AndroidManifest.xml:83:13-37
+130        <activity
+130-->D:\android\takecare\app\src\main\AndroidManifest.xml:84:9-86:40
+131            android:name="com.geekymusketeers.taketoocare.profile.EditProfileActivity"
+131-->D:\android\takecare\app\src\main\AndroidManifest.xml:85:13-56
+132            android:exported="false" />
+132-->D:\android\takecare\app\src\main\AndroidManifest.xml:86:13-37
+133        <activity
+133-->D:\android\takecare\app\src\main\AndroidManifest.xml:87:9-89:40
+134            android:name="com.geekymusketeers.taketoocare.profile.ProfileActivity"
+134-->D:\android\takecare\app\src\main\AndroidManifest.xml:88:13-52
+135            android:exported="false" />
+135-->D:\android\takecare\app\src\main\AndroidManifest.xml:89:13-37
+136        <activity
+136-->D:\android\takecare\app\src\main\AndroidManifest.xml:90:9-92:40
+137            android:name="com.geekymusketeers.taketoocare.prescription.AddPrescriptionActivity"
+137-->D:\android\takecare\app\src\main\AndroidManifest.xml:91:13-65
+138            android:exported="false" />
+138-->D:\android\takecare\app\src\main\AndroidManifest.xml:92:13-37
+139        <activity
+139-->D:\android\takecare\app\src\main\AndroidManifest.xml:93:9-95:39
+140            android:name="com.geekymusketeers.taketoocare.mainFragments.DoctorPatient"
+140-->D:\android\takecare\app\src\main\AndroidManifest.xml:94:13-56
+141            android:exported="true" />
+141-->D:\android\takecare\app\src\main\AndroidManifest.xml:95:13-36
+142        <activity
+142-->D:\android\takecare\app\src\main\AndroidManifest.xml:96:9-98:39
+143            android:name="com.geekymusketeers.taketoocare.appointment.BookingDoneActivity"
+143-->D:\android\takecare\app\src\main\AndroidManifest.xml:97:13-60
+144            android:exported="true" />
+144-->D:\android\takecare\app\src\main\AndroidManifest.xml:98:13-36
+145        <activity
+145-->D:\android\takecare\app\src\main\AndroidManifest.xml:99:9-101:39
+146            android:name="com.geekymusketeers.taketoocare.insure.Insure"
+146-->D:\android\takecare\app\src\main\AndroidManifest.xml:100:13-42
+147            android:exported="true" />
+147-->D:\android\takecare\app\src\main\AndroidManifest.xml:101:13-36
+148        <activity
+148-->D:\android\takecare\app\src\main\AndroidManifest.xml:102:9-104:40
+149            android:name="com.geekymusketeers.taketoocare.Firstaid.firsrActivity"
+149-->D:\android\takecare\app\src\main\AndroidManifest.xml:103:13-51
+150            android:exported="false" />
+150-->D:\android\takecare\app\src\main\AndroidManifest.xml:104:13-37
+151        <activity
+151-->D:\android\takecare\app\src\main\AndroidManifest.xml:105:9-107:40
+152            android:name="com.geekymusketeers.taketoocare.Firstaid.SnakeBite"
+152-->D:\android\takecare\app\src\main\AndroidManifest.xml:106:13-47
+153            android:exported="false" />
+153-->D:\android\takecare\app\src\main\AndroidManifest.xml:107:13-37
+154        <activity
+154-->D:\android\takecare\app\src\main\AndroidManifest.xml:108:9-110:40
+155            android:name="com.geekymusketeers.taketoocare.Firstaid.ViralInfection"
+155-->D:\android\takecare\app\src\main\AndroidManifest.xml:109:13-52
+156            android:exported="false" />
+156-->D:\android\takecare\app\src\main\AndroidManifest.xml:110:13-37
+157        <activity
+157-->D:\android\takecare\app\src\main\AndroidManifest.xml:111:9-113:40
+158            android:name="com.geekymusketeers.taketoocare.Firstaid.Skinburn"
+158-->D:\android\takecare\app\src\main\AndroidManifest.xml:112:13-46
+159            android:exported="false" />
+159-->D:\android\takecare\app\src\main\AndroidManifest.xml:113:13-37
+160        <activity
+160-->D:\android\takecare\app\src\main\AndroidManifest.xml:114:9-116:40
+161            android:name="com.geekymusketeers.taketoocare.Firstaid.FoodPoisoning1"
+161-->D:\android\takecare\app\src\main\AndroidManifest.xml:115:13-52
+162            android:exported="false" />
+162-->D:\android\takecare\app\src\main\AndroidManifest.xml:116:13-37
+163        <activity
+163-->D:\android\takecare\app\src\main\AndroidManifest.xml:117:9-119:40
+164            android:name="com.geekymusketeers.taketoocare.Firstaid.DogBite"
+164-->D:\android\takecare\app\src\main\AndroidManifest.xml:118:13-45
+165            android:exported="false" />
+165-->D:\android\takecare\app\src\main\AndroidManifest.xml:119:13-37
+166        <activity
+166-->D:\android\takecare\app\src\main\AndroidManifest.xml:120:9-122:39
+167            android:name="com.geekymusketeers.taketoocare.mainFragments.UPImanager"
+167-->D:\android\takecare\app\src\main\AndroidManifest.xml:121:13-53
+168            android:exported="true" />
+168-->D:\android\takecare\app\src\main\AndroidManifest.xml:122:13-36
+169        <activity
+169-->D:\android\takecare\app\src\main\AndroidManifest.xml:123:9-125:40
+170            android:name="com.geekymusketeers.taketoocare.Reminder.HelpActivity"
+170-->D:\android\takecare\app\src\main\AndroidManifest.xml:124:13-50
+171            android:exported="false" />
+171-->D:\android\takecare\app\src\main\AndroidManifest.xml:125:13-37
+172        <activity
+172-->D:\android\takecare\app\src\main\AndroidManifest.xml:126:9-128:40
+173            android:name="com.geekymusketeers.taketoocare.Reminder.RemindersActivity"
+173-->D:\android\takecare\app\src\main\AndroidManifest.xml:127:13-55
+174            android:exported="false" />
+174-->D:\android\takecare\app\src\main\AndroidManifest.xml:128:13-37
+175        <activity
+175-->D:\android\takecare\app\src\main\AndroidManifest.xml:129:9-131:40
+176            android:name="com.geekymusketeers.taketoocare.language.changelang"
+176-->D:\android\takecare\app\src\main\AndroidManifest.xml:130:13-48
+177            android:exported="false" />
+177-->D:\android\takecare\app\src\main\AndroidManifest.xml:131:13-37
+178        <activity
+178-->D:\android\takecare\app\src\main\AndroidManifest.xml:132:9-134:40
+179            android:name="com.geekymusketeers.taketoocare.sosfeature.SOSdialer"
+179-->D:\android\takecare\app\src\main\AndroidManifest.xml:133:13-49
+180            android:exported="false" />
+180-->D:\android\takecare\app\src\main\AndroidManifest.xml:134:13-37
+181        <activity
+181-->D:\android\takecare\app\src\main\AndroidManifest.xml:135:9-143:20
+182            android:name="com.geekymusketeers.taketoocare.introduction.Splashscreen"
+182-->D:\android\takecare\app\src\main\AndroidManifest.xml:136:13-54
+183            android:exported="true" >
+183-->D:\android\takecare\app\src\main\AndroidManifest.xml:137:13-36
+184            <intent-filter>
+184-->D:\android\takecare\app\src\main\AndroidManifest.xml:138:13-142:29
+185                <action android:name="android.intent.action.MAIN" />
+185-->D:\android\takecare\app\src\main\AndroidManifest.xml:139:17-69
+185-->D:\android\takecare\app\src\main\AndroidManifest.xml:139:25-66
+186
+187                <category android:name="android.intent.category.LAUNCHER" />
+187-->D:\android\takecare\app\src\main\AndroidManifest.xml:141:17-77
+187-->D:\android\takecare\app\src\main\AndroidManifest.xml:141:27-74
+188            </intent-filter>
+189        </activity>
+190        <activity
+190-->D:\android\takecare\app\src\main\AndroidManifest.xml:144:9-146:39
+191            android:name="com.geekymusketeers.taketoocare.appointment.AppointmentBooking"
+191-->D:\android\takecare\app\src\main\AndroidManifest.xml:145:13-59
+192            android:exported="true" />
+192-->D:\android\takecare\app\src\main\AndroidManifest.xml:146:13-36
+193        <activity
+193-->D:\android\takecare\app\src\main\AndroidManifest.xml:147:9-149:39
+194            android:name="com.geekymusketeers.taketoocare.auth.SignUp_First"
+194-->D:\android\takecare\app\src\main\AndroidManifest.xml:148:13-46
+195            android:exported="true" />
+195-->D:\android\takecare\app\src\main\AndroidManifest.xml:149:13-36
+196        <activity
+196-->D:\android\takecare\app\src\main\AndroidManifest.xml:150:9-153:70
+197            android:name="com.geekymusketeers.taketoocare.auth.SignIn_Activity"
+197-->D:\android\takecare\app\src\main\AndroidManifest.xml:151:13-49
+198            android:exported="true"
+198-->D:\android\takecare\app\src\main\AndroidManifest.xml:152:13-36
+199            android:windowSoftInputMode="stateHidden|adjustResize" />
+199-->D:\android\takecare\app\src\main\AndroidManifest.xml:153:13-67
+200        <activity
+200-->D:\android\takecare\app\src\main\AndroidManifest.xml:154:9-157:70
+201            android:name="com.geekymusketeers.taketoocare.auth.SignUp_Activity"
+201-->D:\android\takecare\app\src\main\AndroidManifest.xml:155:13-49
+202            android:exported="true"
+202-->D:\android\takecare\app\src\main\AndroidManifest.xml:156:13-36
+203            android:windowSoftInputMode="stateHidden|adjustResize" />
+203-->D:\android\takecare\app\src\main\AndroidManifest.xml:157:13-67
+204        <activity
+204-->D:\android\takecare\app\src\main\AndroidManifest.xml:158:9-161:55
+205            android:name="com.geekymusketeers.taketoocare.HomeActivity"
+205-->D:\android\takecare\app\src\main\AndroidManifest.xml:159:13-41
+206            android:exported="true"
+206-->D:\android\takecare\app\src\main\AndroidManifest.xml:160:13-36
+207            android:windowSoftInputMode="adjustPan" />
+207-->D:\android\takecare\app\src\main\AndroidManifest.xml:161:13-52
+208
+209        <meta-data
+209-->D:\android\takecare\app\src\main\AndroidManifest.xml:163:9-165:57
+210            android:name="preloaded_fonts"
+210-->D:\android\takecare\app\src\main\AndroidManifest.xml:164:13-43
+211            android:resource="@array/preloaded_fonts" />
+211-->D:\android\takecare\app\src\main\AndroidManifest.xml:165:13-54
+212
+213        <service
+213-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:8:9-14:19
+214            android:name="com.google.firebase.components.ComponentDiscoveryService"
+214-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:9:13-84
+215            android:directBootAware="true"
+215-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+216            android:exported="false" >
+216-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:10:13-37
+217            <meta-data
+217-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:11:13-13:85
+218                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+218-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:12:17-116
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-auth-ktx:22.0.0] D:\android\learinng\caches\transforms-3\58a287ee375b80d388bd81ff9167eeb8\transformed\jetified-firebase-auth-ktx-22.0.0\AndroidManifest.xml:13:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+221                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+221-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-analytics-ktx:21.3.0] D:\android\learinng\caches\transforms-3\8dbd39e2b224364dfe92dee926f07e86\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:11:13-13:85
+224                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+224-->[com.google.firebase:firebase-analytics-ktx:21.3.0] D:\android\learinng\caches\transforms-3\8dbd39e2b224364dfe92dee926f07e86\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:12:17-126
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-analytics-ktx:21.3.0] D:\android\learinng\caches\transforms-3\8dbd39e2b224364dfe92dee926f07e86\transformed\jetified-firebase-analytics-ktx-21.3.0\AndroidManifest.xml:13:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-database-ktx:20.2.2] D:\android\learinng\caches\transforms-3\7f3b69b82c030d5f3ad33e2d246d4daf\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:14:13-16:85
+227                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+227-->[com.google.firebase:firebase-database-ktx:20.2.2] D:\android\learinng\caches\transforms-3\7f3b69b82c030d5f3ad33e2d246d4daf\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:15:17-124
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-database-ktx:20.2.2] D:\android\learinng\caches\transforms-3\7f3b69b82c030d5f3ad33e2d246d4daf\transformed\jetified-firebase-database-ktx-20.2.2\AndroidManifest.xml:16:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-common-ktx:20.3.3] D:\android\learinng\caches\transforms-3\8b7875ffe1d96118312af928b0580686\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:14:13-16:85
+230                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+230-->[com.google.firebase:firebase-common-ktx:20.3.3] D:\android\learinng\caches\transforms-3\8b7875ffe1d96118312af928b0580686\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:15:17-113
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-common-ktx:20.3.3] D:\android\learinng\caches\transforms-3\8b7875ffe1d96118312af928b0580686\transformed\jetified-firebase-common-ktx-20.3.3\AndroidManifest.xml:16:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-database:20.2.2] D:\android\learinng\caches\transforms-3\38034cb7454d2551c69a06f322bfebb4\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+233                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+233-->[com.google.firebase:firebase-database:20.2.2] D:\android\learinng\caches\transforms-3\38034cb7454d2551c69a06f322bfebb4\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-database:20.2.2] D:\android\learinng\caches\transforms-3\38034cb7454d2551c69a06f322bfebb4\transformed\jetified-firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] D:\android\learinng\caches\transforms-3\100c60f235bd41d4bec548b3f90ec0dc\transformed\jetified-firebase-appcheck-safetynet-16.1.1\AndroidManifest.xml:27:13-29:85
+236                android:name="com.google.firebase.components:com.google.firebase.appcheck.safetynet.FirebaseAppCheckSafetyNetRegistrar"
+236-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] D:\android\learinng\caches\transforms-3\100c60f235bd41d4bec548b3f90ec0dc\transformed\jetified-firebase-appcheck-safetynet-16.1.1\AndroidManifest.xml:28:17-136
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-appcheck-safetynet:16.1.1] D:\android\learinng\caches\transforms-3\100c60f235bd41d4bec548b3f90ec0dc\transformed\jetified-firebase-appcheck-safetynet-16.1.1\AndroidManifest.xml:29:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-storage:20.2.1] D:\android\learinng\caches\transforms-3\39dfc4472c478b0bd9aa06f365b32ad8\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+239                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+239-->[com.google.firebase:firebase-storage:20.2.1] D:\android\learinng\caches\transforms-3\39dfc4472c478b0bd9aa06f365b32ad8\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-storage:20.2.1] D:\android\learinng\caches\transforms-3\39dfc4472c478b0bd9aa06f365b32ad8\transformed\jetified-firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+241            <meta-data
+241-->[com.google.firebase:firebase-appcheck:17.0.1] D:\android\learinng\caches\transforms-3\b90642aa5e8dcbfe5fc069ca45222466\transformed\jetified-firebase-appcheck-17.0.1\AndroidManifest.xml:27:13-29:85
+242                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+242-->[com.google.firebase:firebase-appcheck:17.0.1] D:\android\learinng\caches\transforms-3\b90642aa5e8dcbfe5fc069ca45222466\transformed\jetified-firebase-appcheck-17.0.1\AndroidManifest.xml:28:17-117
+243                android:value="com.google.firebase.components.ComponentRegistrar" />
+243-->[com.google.firebase:firebase-appcheck:17.0.1] D:\android\learinng\caches\transforms-3\b90642aa5e8dcbfe5fc069ca45222466\transformed\jetified-firebase-appcheck-17.0.1\AndroidManifest.xml:29:17-82
+244            <meta-data
+244-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+245                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+245-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+246                android:value="com.google.firebase.components.ComponentRegistrar" />
+246-->[com.google.android.gms:play-services-measurement-api:21.3.0] D:\android\learinng\caches\transforms-3\bfd06b21a95fa176c9f778ecf46945d4\transformed\jetified-play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+247            <meta-data
+247-->[com.google.firebase:firebase-installations:17.1.3] D:\android\learinng\caches\transforms-3\c2de51552ed2529a573c787dc21738db\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+248                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+248-->[com.google.firebase:firebase-installations:17.1.3] D:\android\learinng\caches\transforms-3\c2de51552ed2529a573c787dc21738db\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+249                android:value="com.google.firebase.components.ComponentRegistrar" />
+249-->[com.google.firebase:firebase-installations:17.1.3] D:\android\learinng\caches\transforms-3\c2de51552ed2529a573c787dc21738db\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+250        </service>
+251
+252        <activity
+252-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+253            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+253-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+254            android:excludeFromRecents="true"
+254-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+255            android:exported="true"
+255-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+256            android:launchMode="singleTask"
+256-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+257-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+258            <intent-filter>
+258-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+259                <action android:name="android.intent.action.VIEW" />
+259-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+259-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+260
+261                <category android:name="android.intent.category.DEFAULT" />
+261-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+261-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+262                <category android:name="android.intent.category.BROWSABLE" />
+262-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+262-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+263
+264                <data
+264-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+265                    android:host="firebase.auth"
+265-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+266                    android:path="/"
+266-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+267                    android:scheme="genericidp" />
+267-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+268            </intent-filter>
+269        </activity>
+270        <activity
+270-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+271            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+271-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+272            android:excludeFromRecents="true"
+272-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+273            android:exported="true"
+273-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+274            android:launchMode="singleTask"
+274-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+275-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+276            <intent-filter>
+276-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+277                <action android:name="android.intent.action.VIEW" />
+277-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+277-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+278
+279                <category android:name="android.intent.category.DEFAULT" />
+279-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+279-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+280                <category android:name="android.intent.category.BROWSABLE" />
+280-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+280-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+281
+282                <data
+282-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+283                    android:host="firebase.auth"
+283-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+284                    android:path="/"
+284-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+285                    android:scheme="recaptcha" />
+285-->[com.google.firebase:firebase-auth:22.0.0] D:\android\learinng\caches\transforms-3\f5ab76251a6583443fed5f3f36ead4d3\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+286            </intent-filter>
+287        </activity>
+288        <activity
+288-->[com.karumi:dexter:6.2.3] D:\android\learinng\caches\transforms-3\856513d0f9bedd605687c92e8903904e\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+289            android:name="com.karumi.dexter.DexterActivity"
+289-->[com.karumi:dexter:6.2.3] D:\android\learinng\caches\transforms-3\856513d0f9bedd605687c92e8903904e\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:28:13-60
+290            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Needs to be explicitly declared on P+ -->
+290-->[com.karumi:dexter:6.2.3] D:\android\learinng\caches\transforms-3\856513d0f9bedd605687c92e8903904e\transformed\jetified-dexter-6.2.3\AndroidManifest.xml:29:13-69
+291        <uses-library
+291-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+292            android:name="org.apache.http.legacy"
+292-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+293            android:required="false" />
+293-->[com.google.android.gms:play-services-maps:18.1.0] D:\android\learinng\caches\transforms-3\6116e270d74339c5b6d21c17aaaa91b4\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+294
+295        <activity
+295-->[com.google.android.gms:play-services-base:18.1.0] D:\android\learinng\caches\transforms-3\05ba05a2b013e45e348810ec9f4919b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+296            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+296-->[com.google.android.gms:play-services-base:18.1.0] D:\android\learinng\caches\transforms-3\05ba05a2b013e45e348810ec9f4919b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+297            android:exported="false"
+297-->[com.google.android.gms:play-services-base:18.1.0] D:\android\learinng\caches\transforms-3\05ba05a2b013e45e348810ec9f4919b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+298            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+298-->[com.google.android.gms:play-services-base:18.1.0] D:\android\learinng\caches\transforms-3\05ba05a2b013e45e348810ec9f4919b4\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+299
+300        <provider
+300-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+301            android:name="com.google.firebase.provider.FirebaseInitProvider"
+301-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+302            android:authorities="com.geekymusketeers.taketoocare.firebaseinitprovider"
+302-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+303            android:directBootAware="true"
+303-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+304            android:exported="false"
+304-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+305            android:initOrder="100" />
+305-->[com.google.firebase:firebase-common:20.3.3] D:\android\learinng\caches\transforms-3\e56a2c27a1184eafdd9afcb731baac80\transformed\jetified-firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+306
+307        <receiver
+307-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+308            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+308-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+309            android:enabled="true"
+309-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+310            android:exported="false" >
+310-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+311        </receiver>
+312
+313        <service
+313-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+314            android:name="com.google.android.gms.measurement.AppMeasurementService"
+314-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+315            android:enabled="true"
+315-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+316            android:exported="false" />
+316-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+317        <service
+317-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+318            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+318-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+319            android:enabled="true"
+319-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+320            android:exported="false"
+320-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+321            android:permission="android.permission.BIND_JOB_SERVICE" />
+321-->[com.google.android.gms:play-services-measurement:21.3.0] D:\android\learinng\caches\transforms-3\0931bfeabc325396f8f364dabd2c577d\transformed\jetified-play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+322
+323        <meta-data
+323-->[com.google.android.gms:play-services-basement:18.1.0] D:\android\learinng\caches\transforms-3\3e4707253ef469a967595513eb19d090\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+324            android:name="com.google.android.gms.version"
+324-->[com.google.android.gms:play-services-basement:18.1.0] D:\android\learinng\caches\transforms-3\3e4707253ef469a967595513eb19d090\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+325            android:value="@integer/google_play_services_version" />
+325-->[com.google.android.gms:play-services-basement:18.1.0] D:\android\learinng\caches\transforms-3\3e4707253ef469a967595513eb19d090\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+326
+327        <uses-library
+327-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+328            android:name="androidx.window.extensions"
+328-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+329            android:required="false" />
+329-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+330        <uses-library
+330-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+331            android:name="androidx.window.sidecar"
+331-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+332            android:required="false" />
+332-->[androidx.window:window:1.0.0] D:\android\learinng\caches\transforms-3\b140bbe17363a3d830b32453df0fdb16\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+333
+334        <provider
+334-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+335            android:name="androidx.startup.InitializationProvider"
+335-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+336            android:authorities="com.geekymusketeers.taketoocare.androidx-startup"
+336-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+337            android:exported="false" >
+337-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+338            <meta-data
+338-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+339                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+339-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+340                android:value="androidx.startup" />
+340-->[androidx.emoji2:emoji2:1.2.0] D:\android\learinng\caches\transforms-3\1c48fcdd0c22e4b70745f690b591ea45\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+341            <meta-data
+341-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\android\learinng\caches\transforms-3\9b8ce6a2bf2ae81b5852bb380ddf372c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+342                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+342-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\android\learinng\caches\transforms-3\9b8ce6a2bf2ae81b5852bb380ddf372c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+343                android:value="androidx.startup" />
+343-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\android\learinng\caches\transforms-3\9b8ce6a2bf2ae81b5852bb380ddf372c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+344        </provider>
+345
+346        <activity
+346-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+347            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+347-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+348            android:clearTaskOnLaunch="true"
+348-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+349            android:screenOrientation="sensorLandscape"
+349-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+350            android:stateNotNeeded="true"
+350-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+351            android:theme="@style/zxing_CaptureTheme"
+351-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+352            android:windowSoftInputMode="stateAlwaysHidden" />
+352-->[com.journeyapps:zxing-android-embedded:4.3.0] D:\android\learinng\caches\transforms-3\be96d7cc32ddc86f9c87b7c6c485db5e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+353    </application>
+354
+355</manifest>
